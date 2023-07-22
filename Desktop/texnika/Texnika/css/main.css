@@ -1,0 +1,275 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Lato:ital@1&display=swap');
+</style>
+  body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    color: #555;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-overflow-scrolling: touch;
+  }
+  header {
+    padding: 10px; /* some padding */
+    text-align: center; /* center the text */
+    background: #f57542; /* green background */
+    color: white; /* white text color */
+  }
+header h1 {
+  font-size: 40px;
+  font-family: Ti;
+ -webkit-animation: blink 2s linear infinite;
+  animation: blink 2s linear infinite;
+  font-weight: bold;
+  color: #0c5460;
+}
+-webkit-keyframes blink {
+0% { color: #F00; }
+50% { color: #FBB; }
+100% { color: #F00; }
+}
+@keyframes blink {
+  0% { color: #F00; }
+  50% { color: #FBB; }
+  100% { color: blue; }
+}
+.tel img {
+  width: 50px;
+  height: 50px;
+  display: inline;
+}
+.tel h4 {
+  display: inline;
+}
+.line {
+  border-bottom: 2px solid #730E15;
+  margin-top: 10пх;
+}
+.reklamma p {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Arial Narrow";
+}
+.reklamma h4 {
+  text-align: center;
+  color: #730E15;
+  margin-top: 20px;
+}
+.reklamma p {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-indent: 3ch;
+  margin: 0px;
+}
+.navbar-nav a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: black; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 10px 10px; /* Add some padding */
+  /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  /* background-color: white; /* Grey background color */
+  color: black; /* Black text color */
+}
+/* Column container */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.footer { /* Some padding */
+  padding: 10px;
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+  margin-top: 40px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+.main {
+  height:438px;
+}
+.d-block {
+  height: 440px;
+}
+.nav-link{
+  margin-left: 110px;
+  color: #2E2F30;
+}
+.navbar-nav a {
+  font-family: "Helvetica Neue";
+}
+.logo {
+  width: 120px;
+  height: 48px;
+  margin-left: 40px;
+  border: 2px solid #555c5b;
+}
+.logo1 {
+  width: 100px;
+  height: 60px;
+  margin-left: 0px;
+  background-color: #42f599;;
+}
+.catalog h3 {
+  margin-left: 30px;
+  margin-top: 30px;
+  display: inline;
+  border-bottom: 4px solid #f9dd94;
+}
+.border1 {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.image1 img {
+  width: 240px;
+  height: 200px;
+  text-align: center;
+  background-color: #730E15;
+}
+.logo img {
+  width: 120px;
+  height: 48px;
+  margin-left: 40px;
+
+  display: inline;
+}
+.logo1 img {
+  width: 100px;
+  height: 60px;
+  margin-left: 0px;
+  background-color: #42f599;
+}
+.ramka {
+  border: 3px solid #730E15;
+  margin: 30px;
+}
+.name h5 {
+  color: #0b2e13;
+  margin-left: 60px;
+}
+.linia {
+  border-bottom: 3px solid #730E15;
+  margin-top: 20px;
+  margin-left: 320px;
+  width: 720px;
+}
+.rek h3 {
+  font-family: "Helvetica Neue" ;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer { /* Some padding */
+  padding: 10px;
+  text-align: center; /* Center text*/
+  background: #ddd; /* Grey background */
+  margin-top: 40px;
+}
+.border1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.title1  {
+  margin-top: 0;
+  font-size: 15px;
+  font-family: "Arial Narrow";
+  width: 200px;
+}
+.image1 img {
+  width: 240px;
+  height: 200px;
+  background-color: #730E15;
+  margin-left: 30px;
+
+}
+.image2 img {
+  width: 100px;
+  height: 100px;
+  background-color: #730E15;
+  margin-left: 30px;
+}
+.oplata {
+  background: #E0D9CD;
+  height: 100vh;
+}
+.oplata h1 {
+  display: inline;
+  border-bottom: 3px solid #f9dd94;
+  color: #C26F60;
+  margin-left: 30px;
+}
+.oplata h4 {
+  text-align: center;
+  border-bottom: 3px solid #a83254;
+}
+.oplata p {
+  font-family: ProtoSans56;
+  src: font-url('protosans56.ttf');
+  font-size: 18px;
+  margin: 0;
+  text-indent: 3ch;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.oplata h3 {
+  display: inline;
+}
+.image3 img{
+  height: 50px;
+  margin-top: 20px;
+}
+.title2{
+  font-size: 15px;
+  font-family: ProtoSans56;
+  src: font-url('protosans56.ttf');
+  margin-top: 10px;
+  border-bottom: 3px solid #a83254
+}
+.oplata1 img {
+  height: 62px;
+  margin-top: 40px;
+}
+.image4 img {
+  height: 400px;
+  width: 600px;
+}
